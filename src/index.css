@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-warm-ivory: #F7F2EA;
+    --bg-soft-cream: #F2E9DD;
+    --muted-blush: #E9C9C3;
+    --dusty-rose: #CFA5A1;
+    --soft-pink: #E8C7CC;
+    --warm-beige: #D9C8B5;
+    --muted-lavender: #D8D0DC;
+    --soft-burgundy: #76545B;
+    --warm-charcoal: #292627;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #F7F2EA;
+    color: #292627;
+    overflow-x: hidden;
+  }
+}
+
+.font-serif {
+  font-family: 'Cormorant Garamond', Georgia, Cambria, serif;
+}
+
+.font-sans {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+.font-handwriting {
+  font-family: 'Caveat', cursive;
+}
+
+/* Subtle, lightweight hardware-accelerated grain pattern */
+.bg-grain {
+  background-color: #F7F2EA;
+  background-image: radial-gradient(rgba(118, 84, 91, 0.05) 1px, transparent 0);
+  background-size: 28px 28px;
+}
+
+/* Custom smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hide default cursor on desktop when custom cursor is active */
+@media (pointer: fine) {
+  .custom-cursor-active,
+  .custom-cursor-active * {
+    cursor: none !important;
+  }
+}
+
+/* Polaroid & physical print realistic styling */
+.photo-frame {
+  box-shadow: 0 10px 30px -10px rgba(41, 38, 39, 0.15), 0 2px 6px -1px rgba(41, 38, 39, 0.08);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.photo-frame:hover {
+  box-shadow: 0 20px 40px -15px rgba(118, 84, 91, 0.25), 0 4px 12px -2px rgba(41, 38, 39, 0.12);
+}
+
+/* Washi tape visual motif */
+.washi-tape {
+  background: rgba(233, 201, 195, 0.7);
+  backdrop-filter: blur(2px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  border-left: 2px dashed rgba(255, 255, 255, 0.6);
+  border-right: 2px dashed rgba(255, 255, 255, 0.6);
+}
+
+/* Soft paper texture */
+.paper-card {
+  background: #FFFDF9;
+  border: 1px solid rgba(217, 200, 181, 0.45);
+}
+
+/* Glow animations */
+@keyframes softPulse {
+  0%, 100% {
+    opacity: 0.85;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.04);
+    filter: drop-shadow(0 0 16px rgba(207, 165, 161, 0.45));
+  }
+}
+
+.animate-soft-pulse {
+  animation: softPulse 3s ease-in-out infinite;
+}
+
+/* Clean scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F2EA;
+}
+::-webkit-scrollbar-thumb {
+  background: #D9C8B5;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #CFA5A1;
+}
