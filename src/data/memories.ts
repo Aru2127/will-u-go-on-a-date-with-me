@@ -14,7 +14,7 @@ export interface MemoryItem {
   rotationDeg: number;
   missYouNote?: string;
   loveYouNote?: string;
-  interactionType: 'zoom' | 'tilt' | 'reveal' | 'sticker' | 'sparkle' | 'polaroid';
+  interactionType?: 'zoom' | 'tilt' | 'reveal' | 'sticker' | 'polaroid';
   artPlaceholderSvg: string;
 }
 
@@ -101,7 +101,6 @@ export const MEMORIES: MemoryItem[] = [
     aspectRatio: "portrait",
     rotationDeg: 2,
     missYouNote: "actually that's a lie. i miss you a lot.",
-    interactionType: "sparkle",
     artPlaceholderSvg: "pixel-halftone"
   },
   {
@@ -262,7 +261,6 @@ export const MEMORIES: MemoryItem[] = [
     rotationDeg: 2,
     missYouNote: "if you're wondering... yes. i still miss you.",
     loveYouNote: "i love you, akshita.",
-    interactionType: "sparkle",
     artPlaceholderSvg: "night-kiss"
   }
 ];

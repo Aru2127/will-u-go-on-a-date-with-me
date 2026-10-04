@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { ChevronRight, ChevronLeft, Sparkles } from 'lucide-react';
+import { ChevronRight, ChevronLeft } from 'lucide-react';
 import { CHAPTERS } from '../data/chapters';
 
 interface ChapterNavigationProps {

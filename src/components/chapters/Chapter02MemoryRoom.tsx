@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Pin, Sparkles, Heart } from 'lucide-react';
+import { Pin, Heart } from 'lucide-react';
 import { MEMORIES } from '../../data/memories';
 import { MemoryImage } from '../MemoryImage';
 
@@ -156,7 +156,6 @@ export const Chapter02MemoryRoom: React.FC<Chapter02MemoryRoomProps> = ({
                     /* Backside of the physical photograph */
                     <div className="aspect-[4/5] flex flex-col justify-between p-6 bg-[#F2E9DD]/60 rounded-lg border border-dashed border-[#D9C8B5] text-left">
                       <div className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-[#76545B]">
-                        <Sparkles size={12} className="text-[#CFA5A1]" />
                         <span>written on the back</span>
                       </div>
                       <div className="font-handwriting text-xl sm:text-2xl text-[#292627] leading-relaxed my-auto">

@@ -30,8 +30,6 @@ export const ArtSilhouette: React.FC<ArtSilhouetteProps> = ({ type, className = 
             <path d="M55 140 Q100 170 145 140" stroke="#E5B942" strokeWidth="12" strokeLinecap="round" />
             {/* Big smiling mouth */}
             <path d="M96 148 Q102 156 108 148" stroke="#76545B" strokeWidth="2.5" strokeLinecap="round" />
-            {/* Sparkles */}
-            <text x="140" y="90" fontSize="16" fill="#CFA5A1">✨</text>
             <text x="40" y="160" fontSize="14" fill="#E5B942">☀️</text>
           </svg>
         )}

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Sparkles, Heart, Orbit, Compass, X, Move3d } from 'lucide-react';
+import { Heart, Orbit, Compass, X, Move3d } from 'lucide-react';
 import { MEMORIES, MemoryItem } from '../../data/memories';
 import { MemoryImage } from '../MemoryImage';
 

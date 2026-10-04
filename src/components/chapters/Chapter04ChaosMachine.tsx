@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { AlertTriangle, Flame, ShieldAlert, Sparkles } from 'lucide-react';
+import { AlertTriangle, Flame, ShieldAlert } from 'lucide-react';
 import { MEMORIES } from '../../data/memories';
 import { MemoryImage } from '../MemoryImage';
 import { VintageCamcorderPlayer } from '../VintageCamcorderPlayer';

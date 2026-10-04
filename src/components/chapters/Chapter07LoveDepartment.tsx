@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import { Heart, Sparkles } from 'lucide-react';
+import { Heart } from 'lucide-react';
 import { MEMORIES } from '../../data/memories';
 import { MemoryImage } from '../MemoryImage';
 

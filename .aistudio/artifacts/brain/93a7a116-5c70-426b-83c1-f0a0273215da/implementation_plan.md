@@ -43,7 +43,7 @@ Build a high-performance, silky smooth update for Akshita's interactive experien
 - **Local Media Assets**: Photos, videos, and audio load directly from the project's `/assets` directory.
 
 ### D. Amplified Micro-Animations
-- **Floating Ambient Sparkles & Petals**: Lightweight canvas-based floating particles.
+- **Floating Ambient Particles**: Lightweight canvas-based floating particles.
 - **Physical Washi Tape & Pin Wiggles**: Subtle hover physics on cards.
 - **Smooth Page Transitions**: Fluid cross-fade and scale transitions between chapters without layout shifts.
 

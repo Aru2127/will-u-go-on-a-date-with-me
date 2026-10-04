@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import { Check, Calendar as CalendarIcon, Clock, Sparkles } from 'lucide-react';
+import { Check, Calendar as CalendarIcon, Clock } from 'lucide-react';
 import { DATE_ACTIVITIES } from '../data/memories';
 
 export interface DatePlanData {
@@ -91,7 +91,6 @@ export const DatePlanner: React.FC<DatePlannerProps> = ({ onPlanConfirmed }) => 
         {/* Step 1: What are we doing? */}
         <div className="space-y-4">
           <div className="flex items-center gap-2 text-sm font-semibold text-[#292627] uppercase tracking-wider">
-            <Sparkles size={16} className="text-[#CFA5A1]" />
             <span>1. what are we doing?</span>
           </div>
 

@@ -135,7 +135,7 @@ export const HeartCursor: React.FC = () => {
 
   return (
     <div className="fixed inset-0 pointer-events-none z-[99999] overflow-hidden">
-      {/* Hardware-accelerated canvas for trailing sparkles */}
+      {/* Hardware-accelerated canvas for the heart particle trail */}
       <canvas ref={canvasRef} className="absolute inset-0 pointer-events-none" />
 
       {/* Main cursor element with will-change: transform */}

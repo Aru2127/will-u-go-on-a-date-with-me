@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Sparkles, Heart } from 'lucide-react';
+import { Heart } from 'lucide-react';
 import { MemoryItem } from '../data/memories';
 import { MemoryImage } from './MemoryImage';
 
@@ -122,7 +122,6 @@ export const MemoryCard: React.FC<MemoryCardProps> = ({
                 className="mt-3 pt-3 border-t border-[#D9C8B5]/30 text-left bg-[#F7F2EA]/60 rounded-lg p-2.5"
               >
                 <div className="flex items-center gap-1.5 text-[11px] font-semibold text-[#76545B] uppercase tracking-wider mb-1">
-                  <Sparkles size={11} className="text-[#CFA5A1]" />
                   <span>secret thought</span>
                 </div>
                 <p className="font-handwriting text-base text-[#292627] leading-tight">
